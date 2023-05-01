@@ -25,4 +25,12 @@ public class BaseballCoach implements Coach {
     public String getTeam() {
         return null;
     }
+
+    public void doMyStartupStuff(){
+        System.out.println("BaseballCoach: inside method doMyStartupStuff");
+    }
+
+    public void doMyStartupStuffYoyo(){
+        System.out.println("BaseballCoach: inside method doMyStartupStuffYoyo");
+    }
 }
